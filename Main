@@ -1,0 +1,303 @@
+<div class="container">
+  <header class="header">
+    <h1 id="title" class="text-center">CyberPunk Character Survey</h1>
+    <p id="description" class="description text-center">
+      Welcome to the Dark Future
+    </p>
+  </header>
+  <form id="survey-form">
+    <div class="form-group">
+      <label id="name-label" for="name">Player Name</label>
+      <input
+        type="text"
+        name="player name"
+        id="name"
+        class="form-control"
+        placeholder="Enter your name"
+        required
+      />
+      
+    </div>
+    <div class="form-group">
+      <label id="email-label" for="email">Email</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        class="form-control"
+        placeholder="Enter your Email"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label id="cname">Character Name</label>
+      <input
+        name="character name"
+        id="character name"
+        class="form-control"
+        placeholder="Enter your Character Name"
+        required
+      />
+    </div>
+    <div class="form-group">
+      <label id="number-label" for="number"
+        >Character Age</label
+      >
+      <input
+        type="number"
+        name="age"
+        id="number"
+        min="10"
+        max="99"
+        class="form-control"
+        placeholder="Age"
+        Required
+      />
+    </div>
+    <div class="form-group">
+      <lasswill>Which class will you take to the edge?>
+      <select id="dropdown" name="class" class="form-control" required>
+        <option disabled selected value>Select your class</option>
+        <option value="rockerboy">Rockerboy</option>
+        <option value="fixer">Fixer</option>
+        <option value="solo">Solo</option>
+        <option value="nomad">Nomad</option>
+        <option value="netrunner">Netrunner</option>
+        <option value="tech">Tech</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <p>Character ethnic origin:</p>
+      <label>
+        <input
+          name="ethnic"
+          value="anglo-american"
+          type="radio"
+          class="input-radio"
+          checked
+        />Anglo-American</label
+      >
+      <label>
+        <input
+          name="ethnic"
+          value="european"
+          type="radio"
+          class="input-radio"
+        />European</label
+      >
+
+      <label
+        ><input
+          name="ethnic"
+          value="african"
+          type="radio"
+          class="input-radio"
+        />African</label
+      >
+      <label>
+        <input
+          name="ethnic"
+          value="japanesekorean"
+          type="radio"
+          class="input-radio"
+          checked
+        />Japanese/Korean</label
+      >
+      <label>
+        <input
+          name="ethnic"
+          value="centraleursoviet"
+          type="radio"
+          class="input-radio"
+          checked
+        />Central European/Soviet</label
+      >
+      <label>
+        <input
+          name="ethnic"
+          value="pacificislander"
+          type="radio"
+          class="input-radio"
+          checked
+        />Pacific Islander</label
+      >
+      <label>
+        <input
+          name="ethnic"
+          value="asian"
+          type="radio"
+          class="input-radio"
+          checked
+        />Chinese/Southeast Asian</label
+      >
+      <label>
+        <input
+          name="ethnic"
+          value="blackamerican"
+          type="radio"
+          class="input-radio"
+          checked
+        />Black American</label
+      >
+      <label>
+        <input
+          name="ethnic"
+          value="hispanicamerican"
+          type="radio"
+          class="input-radio"
+          checked
+        />Hispanic American</label
+      >
+      <label>
+        <input
+          name="ethnic"
+          value="southamerican"
+          type="radio"
+          class="input-radio"
+          checked
+        />Central/South American</label
+      >
+    </div>
+
+    <div class="form-group">
+      <p>
+        What clothes do you wear?
+      </p>
+      <select id="clothes" name="clothes" class="form-control" required>
+        <option disabled selected value>Select an option</option>
+        <option value="bikerleathers">Biker Leathers</option>
+        <option value="bluejeans">Blue Jeans</option>
+        <option value="corporatesuits">Corporate Suits</option>
+        <option value="jumpsuits">Jump Suits</option>
+        <option value="miniskirts">Mini Skirts</option>
+        <option value="highfashion">High Fashion</option>
+        <option value="cammos">Cammos</option>
+        <option value="normalclothes">Normal Clothes</option>
+        <option value="nude">Nude</option>
+        <option value="bagladychic">Bag Lady Chic</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <p>
+        Hairstyle?
+      </p>
+      <select id="hair" name="hair" class="form-control" required>
+        <option disabled selected value>Select an option</option>
+        <option value="mohawk">Mohawk</option>
+        <option value="longratty">Long & Ratty</option>
+        <option value="shortspiked">Short & Spiked</option>
+        <option value="wildallover">Wild & All Over</option>
+        <option value="bald">bald</option>
+        <option value="striped">Striped</option>
+        <option value="tinted">Tinted</option>
+        <option value="neatshort">Neat & Short</option>
+        <option value="shortcurly">Short & Curly</option>
+        <option value="longstraight">Long & Straight</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <p>
+        Affectations?
+        <span class="clue">(Check all that apply)</span>
+      </p>
+
+      <label
+        ><input
+          name="prefer"
+          value="tatoos"
+          type="checkbox"
+          class="input-checkbox"
+        />Tatoos</label
+      >
+      <label>
+        <input
+          name="prefer"
+          value="mirrorshades"
+          type="checkbox"
+          class="input-checkbox"
+        />Mirrorshades</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="ritualscars"
+          type="checkbox"
+          class="input-checkbox"
+        />Ritual Scars</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="spikedgloves"
+          type="checkbox"
+          class="input-checkbox"
+        />Spiked Gloves</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="noserings"
+          type="checkbox"
+          class="input-checkbox"
+        />Nose Rings</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="earrings"
+          type="checkbox"
+          class="input-checkbox"
+        />Earrings</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="longfingernails"
+          type="checkbox"
+          class="input-checkbox"
+        />Long Fingernails</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="spikeheeledboots"
+          type="checkbox"
+          class="input-checkbox"
+        />Spike Heeled Boots</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="weirdcontactlenses"
+          type="checkbox"
+          class="input-checkbox"
+        />Weird Contact Lenses</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="fingerlessgloves"
+          type="checkbox"
+          class="input-checkbox"
+        />Fingerless Gloves</label
+      >
+    </div>
+
+    <div class="form-group">
+      <p>Any specific details not mentioned?</p>
+      <textarea
+        id="comments"
+        class="input-textarea"
+        name="comment"
+        placeholder="Ex: Racer the Nomad wears all black and has a ring on every finger."
+      ></textarea>
+    </div>
+
+    <div class="form-group">
+      <button type="submit" id="submit" class="submit-button"><b>
+        Submit</b>
+      </button>
+    </div>
+  </form>
+</div>
